@@ -29,5 +29,5 @@ Given two integer numbers, find the greatest common divisor. That is, the larges
 	FOR every number from 1 to smallestinteger
 		IF integer1 modulus the number is zero and integer2 modulus the number is zero 
 			SET commondivisor to number
-		EndIF
+		ENDIF
 	STOP
