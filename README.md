@@ -23,7 +23,7 @@ Given two integer numbers, find the greatest common divisor. That is, the larges
 
 	START
 	GET values for integer1 and integer2
-	SET commondivisor to zero
+	SET commondivisor to one
 	DETERMINE smaller value between integer1 and integer2
 	SET smaller integer as smallestinteger
 	FOR every number from 1 to smallestinteger
