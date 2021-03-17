@@ -21,13 +21,15 @@ Exercise Four: Greatest Common Divisor
 Write the pseudocode instructions for the following:
 Given two integer numbers, find the greatest common divisor. That is, the largest integer that divides both of them with no remainder. You may assume both numbers are positive.
 
-V1
+Version 1
+
 	GET values
 	DETERMINE smaller value
 	FOR numbers from 1 to smaller value check if value is divisible by the number with no remainder
 	SET the common divisor to number 
 	
-V2
+Version 2
+
 	START
 	GET values for integer1 and integer2
 	SET commondivisor to one
