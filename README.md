@@ -27,7 +27,7 @@ Given two integer numbers, find the greatest common divisor. That is, the larges
 	DETERMINE smaller value between integer1 and integer2
 	SET smaller integer as smallestinteger
 	FOR every number from 1 to smallestinteger
-		IF integer1 modulus the number is zero and integer2 modulus the number is zero 
+		IF integer1 and integer2 is divisible by the number with no remainder
 			SET commondivisor to number
 		ENDIF
 	STOP
