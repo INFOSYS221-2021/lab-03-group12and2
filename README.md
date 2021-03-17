@@ -23,17 +23,11 @@ Given two integer numbers, find the greatest common divisor. That is, the larges
 
 	START
 	GET values for integer1 and integer2
-	Determine larger value between integer1 and integer2
-	SET divideflag as true 
-	SET divider as one 
-	WHILE divideflag as true 
-		SET remainder to result of calculate int1 / divider  (modulo operator) (or calculate remainder) 
-
-		IF remainder is NOT INTEGER 
-		SET Divideflag as false 
-		COMPUTE int2 / divider 
-	
-		IF remainder is NOT INTEGER
-		SET Divideflag as false 
-	
-	INCREMENT divider 
+	SET commomdivisor to zero
+	DETERMINE smaller value between integer1 and integer2
+	SET smaller integer as smallestinteger
+	FOR every number from 1 to smallestinteger
+		IF integer1 remainder is zero and integer2 remander is zero 
+			SET commondivisor to number
+		EndIF
+	STOP
