@@ -9,13 +9,13 @@ Exercise One: Reversing String
 Write the pseudocode instructions for the following:
 Given a word or a sentence, display the given word/sentence in reverse order.
 
-START 
-GET length of word/sentence
-WHILE length of word is greater than zero
-	PRINT last letter of sentence/word
-	SET length of sentence/word as one less than sentence/word
-ENDWHILE
-STOP
+	START 
+	GET length of word/sentence
+	WHILE length of word is greater than zero
+		PRINT last letter of sentence/word
+		SET length of sentence/word as one less than sentence/word
+	ENDWHILE
+	STOP
 
 Exercise Four: Greatest Common Divisor
 Write the pseudocode instructions for the following:
