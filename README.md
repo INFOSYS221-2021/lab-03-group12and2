@@ -1,5 +1,4 @@
-# lab-03-group12and2
-lab-03-group12and2 created by GitHub Classroom
+# Lab 3 Group 12 and 2
 
 Team Members
 - Helen Vincent
